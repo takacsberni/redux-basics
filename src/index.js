@@ -4,6 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// ACTIONS
+const increment = () => {
+  return {
+    type: "INCREMENT"
+  }
+};
+
+const decrement = () => {
+  return {
+    type: "DECREMENT"
+  }
+};
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
